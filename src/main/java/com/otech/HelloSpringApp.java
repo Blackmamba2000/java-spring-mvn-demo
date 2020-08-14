@@ -4,7 +4,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp {
 
-    public static void main(String...args) {
+    public static void main(String[] args) {
 
         // load the spring configuration file
         ClassPathXmlApplicationContext context =
@@ -12,6 +12,7 @@ public class HelloSpringApp {
 
         // retrieve bean from spring container
         Coach theCoach = context.getBean("myCoach", Coach.class);
+
         //HappyFortuneService newfortune = context.getBean("myFortuneService", HappyFortuneService.class);
 
         // call methods on the bean

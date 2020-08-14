@@ -1,6 +1,5 @@
 package com.otech;
 
-import javax.sound.midi.Track;
 
 public class TrackCoach implements Coach {
 
@@ -10,9 +9,7 @@ public class TrackCoach implements Coach {
         this.fortuneService = fortuneService;
     }
 
-    public TrackCoach() {
-
-    }
+    public TrackCoach() {}
 
     @Override
     public String getDailyWorkout() {
