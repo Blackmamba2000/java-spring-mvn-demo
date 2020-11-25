@@ -1,4 +1,4 @@
-# Java Maven Spring Demo
+# Java Spring Demo
 
 Please follow the steps below to get this project running on your local machine. 
 
